@@ -1,0 +1,12 @@
+{
+  "name": "fox-travel-booking",
+  "version": "1.0.0",
+  "private": true,
+  "description": "نظام حجز وإدارة Fox Travel",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "start": "node --experimental-sqlite server.js",
+    "backup": "node --experimental-sqlite backup.js",
+    "reset-password": "node --experimental-sqlite reset-password.js"
+  }
+}
